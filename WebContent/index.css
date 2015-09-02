@@ -1,0 +1,453 @@
+.l {
+	margin: 60px auto 0;
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+
+.l:before,
+.l:after {
+	display: block;
+	content: " ";
+	position: absolute;
+	opacity: 0;
+}
+
+.l:before {
+	-webkit-animation: rejseplanen-before 4s infinite;
+	animation: rejseplanen-before 4s infinite;
+	height: 20px;
+	top: 2px;
+	box-shadow: 20px 0px 20px -10px white inset, -20px 0px 20px -10px white inset;
+}
+
+.l:after {
+	-webkit-animation: rejseplanen-after 4s infinite;
+	animation: rejseplanen-after 4s infinite;
+	border-radius:50%;
+	height: 24px;
+	width: 24px;
+	border: 11px #00213D solid;
+	background: #E10C19;
+	box-shadow: 0 0 0 0 white inset;
+	top: 0;
+}
+
+@-webkit-keyframes rejseplanen-before {
+	0% {
+		background: #EBB904;
+		left: -228px;
+		right: 252px;
+	}
+	
+	8% {
+		opacity: 1;
+	}
+	
+	16% {
+		left: -108px;
+		right: 12px;
+	}
+	
+	45% {
+		background: #EBB904;
+		left: -18px;
+		right: -18px;
+	}
+	
+	46% {
+		background: #00213D;
+	}
+	
+	85% {
+		left: 12px;
+		right: -108px;
+	}
+	
+	90% {
+		opacity: 1;
+	}
+	
+	95% {
+		background: #00213D;
+		left: 252px;
+		right: -228px;
+	}
+}
+
+@-webkit-keyframes rejseplanen-after {
+	0% {
+		left: -228px;
+		border-width: 0;
+	}
+	
+	16% {
+		opacity: 1;
+		box-shadow: 0 0 0 0 white inset;
+		width: 24px;
+		height: 24px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	18% {
+		left: -11px;
+		top: -11px;
+		border-width: 0px;
+		box-shadow: 0 0 0 11px white inset;
+		width: 45px;
+		height: 45px;
+	}
+	
+	19% {
+		left: -11px;
+		top: -11px;
+		border-width: 0px;
+		box-shadow: 0 0 0 11px white inset;
+		width: 45px;
+		height: 45px;
+	}
+	
+	25% {
+		border-width: 11px;
+		left: -22px;
+		top: -22px;
+	}
+	
+	85% {
+		opacity: 1;
+	}
+	
+	100% {
+		border-width: 11px;
+		box-shadow: 0 0 0 11px white inset;
+		left: -22px;
+		top: -22px;
+		width: 45px;
+		height: 45px;
+	}
+}
+
+@keyframes rejseplanen-before {
+	0% {
+		background: #EBB904;
+		left: -228px;
+		right: 252px;
+	}
+	
+	8% {
+		opacity: 1;
+	}
+	
+	16% {
+		left: -108px;
+		right: 12px;
+	}
+	
+	45% {
+		background: #EBB904;
+		left: -18px;
+		right: -18px;
+	}
+	
+	46% {
+		background: #00213D;
+	}
+	
+	85% {
+		left: 12px;
+		right: -108px;
+	}
+	
+	90% {
+		opacity: 1;
+	}
+	
+	95% {
+		background: #00213D;
+		left: 252px;
+		right: -228px;
+	}
+}
+
+@keyframes rejseplanen-after {
+	0% {
+		left: -228px;
+		border-width: 0;
+	}
+	
+	16% {
+		opacity: 1;
+		box-shadow: 0 0 0 0 white inset;
+		width: 24px;
+		height: 24px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	18% {
+		left: -11px;
+		top: -11px;
+		border-width: 0px;
+		box-shadow: 0 0 0 11px white inset;
+		width: 45px;
+		height: 45px;
+	}
+	
+	19% {
+		left: -11px;
+		top: -11px;
+		border-width: 0px;
+		box-shadow: 0 0 0 11px white inset;
+		width: 45px;
+		height: 45px;
+	}
+	
+	25% {
+		border-width: 11px;
+		left: -22px;
+		top: -22px;
+	}
+	
+	85% {
+		opacity: 1;
+	}
+	
+	100% {
+		border-width: 11px;
+		box-shadow: 0 0 0 11px white inset;
+		left: -22px;
+		top: -22px;
+		width: 45px;
+		height: 45px;
+	}
+}
+
+.l2 {
+	margin: 80px auto 0;
+	width: 12px;
+	height: 12px;
+	position: relative;
+}
+
+.l2:before,
+.l2:after {
+	display: block;
+	content: " ";
+	position: absolute;
+	opacity: 0;
+}
+
+.l2:before {
+	-webkit-animation: rejseplanen-before-2 4s infinite;
+	animation: rejseplanen-before-2 4s infinite;
+	height: 10px;
+	top: 1px;
+	box-shadow: 10px 0px 10px -5px white inset, -10px 0px 10px -5px white inset;
+}
+
+.l2:after {
+	-webkit-animation: rejseplanen-after-2 4s infinite;
+	animation: rejseplanen-after-2 4s infinite;
+	border-radius:50%;
+	height: 12px;
+	width: 12px;
+	border: 5px #00213D solid;
+	background: #E10C19;
+	box-shadow: 0 0 0 0 white inset;
+	top: 0px;
+}
+
+@-webkit-keyframes rejseplanen-before-2 {
+	0% {
+		background: #EBB904;
+		right: 126px;
+		left: -114px;
+	}
+	
+	8% {
+		opacity: 1;
+	}
+	
+	16% {
+		right: 6px;
+		left: -54px;
+	}
+	
+	45% {
+		left: -12px;
+		right: -8px;
+		background: #EBB904;
+	}
+	
+	46% {
+		left: 0;
+		right: -12px;
+		background: #00213D;
+	}
+	
+	85% {
+		left: 6px;
+		right: -54px;
+	}
+	
+	90% {
+		opacity: 1;
+	}
+	
+	95% {
+		left: 126px;
+		right: -114px;
+		background: #00213D;
+	}
+}
+
+@-webkit-keyframes rejseplanen-after-2 {
+	0% {
+		left: -114px;
+		border-width: 0;
+	}
+	
+	16% {
+		opacity: 1;
+		box-shadow: 0 0 0 0 white inset;
+		width: 12px;
+		height: 12px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	18% {
+		left: -5px;
+		top: -5px;
+		border-width: 0px;
+		box-shadow: 0 0 0 5px white inset;
+		width: 22px;
+		height: 22px;
+	}
+	
+	19% {
+		left: -5px;
+		top: -5px;
+		border-width: 0px;
+		box-shadow: 0 0 0 5px white inset;
+		width: 22px;
+		height: 22px;
+	}
+	
+	25% {
+		border-width: 5px;
+		left: -10px;
+		top: -10px;
+	}
+	
+	85% {
+		opacity: 1;
+	}
+	
+	100% {
+		border-width: 5px;
+		box-shadow: 0 0 0 5px white inset;
+		left: -10px;
+		top: -10px;
+		width: 22px;
+		height: 22px;
+	}
+}
+
+@keyframes rejseplanen-before-2 {
+	0% {
+		background: #EBB904;
+		right: 126px;
+		left: -114px;
+	}
+	
+	8% {
+		opacity: 1;
+	}
+	
+	16% {
+		right: 6px;
+		left: -54px;
+	}
+	
+	45% {
+		left: -12px;
+		right: -8px;
+		background: #EBB904;
+	}
+	
+	46% {
+		left: 0;
+		right: -12px;
+		background: #00213D;
+	}
+	
+	85% {
+		left: 6px;
+		right: -54px;
+	}
+	
+	90% {
+		opacity: 1;
+	}
+	
+	95% {
+		left: 126px;
+		right: -114px;
+		background: #00213D;
+	}
+}
+
+@keyframes rejseplanen-after-2 {
+	0% {
+		left: -114px;
+		border-width: 0;
+	}
+	
+	16% {
+		opacity: 1;
+		box-shadow: 0 0 0 0 white inset;
+		width: 12px;
+		height: 12px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	18% {
+		left: -5px;
+		top: -5px;
+		border-width: 0px;
+		box-shadow: 0 0 0 5px white inset;
+		width: 22px;
+		height: 22px;
+	}
+	
+	19% {
+		left: -5px;
+		top: -5px;
+		border-width: 0px;
+		box-shadow: 0 0 0 5px white inset;
+		width: 22px;
+		height: 22px;
+	}
+	
+	25% {
+		border-width: 5px;
+		left: -10px;
+		top: -10px;
+	}
+	
+	85% {
+		opacity: 1;
+	}
+	
+	100% {
+		border-width: 5px;
+		box-shadow: 0 0 0 5px white inset;
+		left: -10px;
+		top: -10px;
+		width: 22px;
+		height: 22px;
+	}
+}
